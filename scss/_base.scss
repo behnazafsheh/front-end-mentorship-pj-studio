@@ -1,0 +1,57 @@
+:root {
+  --primary-color: rgb(124, 72, 245);
+  --dark-color: rgb(45, 44, 51);
+  --gray-color: rgb(122, 122, 122);
+  --black-color: rgb(0, 0, 0);
+  --white-color: rgb(250, 248, 255);
+  --orange-color:#f0940a;
+}
+* {
+  padding: 0;
+  margin: 0;
+}
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+html {
+  box-sizing: border-box;
+  font-size: 62.5%;
+}
+body {
+  font-size: 62.5%;
+  font-family: "Poppins", sans-serif;
+  width: 100%;
+  overflow-x: hidden;
+  background: linear-gradient(141deg, #fff 0%, #f7f7f7 51%, #f2f2f2 75%);
+}
+
+.container {
+  width: 100%;
+  margin-right: auto;
+  margin-left: auto;
+  padding: 0 1rem;
+}
+ @mixin flexSpaceAround() {
+   display: flex;
+   flex-direction: row;
+   justify-content: space-around;
+ }
+
+ @mixin FlexRowCenter {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+ }
+
+ @mixin FlexColumnCenter {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+ }
+

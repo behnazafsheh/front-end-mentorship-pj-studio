@@ -1,0 +1,236 @@
+@import url(https://fonts.googleapis.com/css?family=Raleway:400,500,800);
+:root {
+  --primary-color: rgb(124, 72, 245);
+  --dark-color: rgb(45, 44, 51);
+  --gray-color: rgb(122, 122, 122);
+  --black-color: rgb(0, 0, 0);
+  --white-color: rgb(250, 248, 255);
+  --orange-color:#f0940a;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+html {
+  box-sizing: border-box;
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 62.5%;
+  font-family: "Poppins", sans-serif;
+  width: 100%;
+  overflow-x: hidden;
+  background: linear-gradient(141deg, #fff 0%, #f7f7f7 51%, #f2f2f2 75%);
+}
+
+.container {
+  width: 100%;
+  margin-right: auto;
+  margin-left: auto;
+  padding: 0 1rem;
+}
+
+.nav-bar {
+  margin-top: 5rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.header-logo {
+  width: 10%;
+  height: 50%;
+}
+
+.header-menu {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  gap: 3rem;
+  font-size: 2rem;
+}
+
+.nav-bar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.header-logo {
+  width: 10%;
+  height: 50%;
+}
+
+.header-menu li a {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: var(--black-color);
+}
+
+.btn {
+  background-color: var(--primary-color);
+  color: var(--white-color);
+  border: none;
+  padding: 0 2.5rem;
+  border-radius: 0.5rem;
+  box-shadow: inset 0 0 0 0.2rem var(--primary-color);
+}
+
+.btn:hover {
+  background-color: var(--white-color);
+  color: var(--primary-color);
+  border: 2px solid var(--primary-color);
+  transition: 0.5s;
+}
+
+#hero {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-top: 5rem;
+}
+
+#hero p {
+  padding: 0;
+}
+
+.description-hero {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.hero-action {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.description-hero-heading {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  font-size: 6rem;
+  margin-bottom: 3rem;
+}
+
+.description-hero-heading svg {
+  padding-top: 1rem;
+  width: 63px;
+  height: 63px;
+}
+
+.description-hero p {
+  color: var(--gray-color);
+  font-size: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin: 2rem 0;
+}
+
+.hero-action {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 0;
+}
+
+.image-hero {
+  margin-left: 15rem;
+}
+
+.btn-hero {
+  padding: 1.5rem 1.5rem;
+  margin: 0 2rem 0 0;
+}
+
+.hero-action-description {
+  padding: 0 2rem;
+  margin: 0 2rem;
+}
+
+.snip {
+  font-family: "Poppins", sans-serif;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+
+.snip * {
+  box-sizing: border-box;
+  transition: all 0.35s ease;
+}
+
+.snip li {
+  display: inline-block;
+  list-style: outside none none;
+  margin: 0 1rem;
+  overflow: hidden;
+}
+
+.snip a {
+  padding: 0.3em 0;
+  color: var(--black-color);
+  position: relative;
+  display: inline-block;
+  margin: 0;
+  text-decoration: none;
+}
+
+.snip a:before,
+.snip a:after {
+  position: absolute;
+  transition: all 0.35s ease;
+}
+
+.snip a:before {
+  bottom: 100%;
+  display: block;
+  height: 3px;
+  width: 100%;
+  content: "";
+  background-color: var(--orange-color);
+}
+
+.snip a:after {
+  padding: 0.3em 0;
+  position: absolute;
+  bottom: 100%;
+  left: 0;
+  content: attr(data-hover);
+  color: #524b4b;
+  white-space: nowrap;
+}
+
+.snip li:hover a,
+.snip .current a {
+  transform: translateY(100%);
+}
+/*# sourceMappingURL=main.css.map */
