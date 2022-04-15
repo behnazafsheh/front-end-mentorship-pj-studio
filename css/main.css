@@ -12,6 +12,7 @@
   --red-color:rgb(241, 97, 74);
   --green-color:rgb(54, 180, 59);
   --aqua-color:rgb(94, 212, 213);
+  --pink-color:rgb(254, 244, 239);
 }
 
 * {
@@ -404,7 +405,7 @@ a {
   justify-content: space-between;
   background-color: var(--white-color);
   width: 30%;
-  margin-left: 45rem;
+  margin-left: 65rem;
   padding: 5rem;
 }
 
@@ -580,5 +581,28 @@ a {
 
 .offer-item-3 p {
   color: var(--gray-color);
+}
+
+.web-image img {
+  position: absolute;
+  left: 50px;
+  top: 50px;
+  width: 35%;
+  height: 80%;
+  margin-right: auto;
+}
+
+.web-features-container {
+  background-color: var(--pink-color);
+  position: relative;
+  margin: 20rem 0;
+}
+
+.web-feature-1 i {
+  background-color: var(--blue-color);
+}
+
+.web-feature-2 i {
+  background-color: var(--red-color);
 }
 /*# sourceMappingURL=main.css.map */

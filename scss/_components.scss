@@ -296,7 +296,7 @@ a {
   justify-content: space-between;
   background-color: var(--white-color);
   width: 30%;
-  margin-left: 45rem;
+  margin-left: 65rem;
   padding: 5rem;
   h4 {
     color: var(--gray-color);
@@ -377,17 +377,17 @@ a {
 //   @include FlexRowCenter;
 // }
 
-.offer-image img{
+.offer-image img {
   height: 60%;
   width: 60%;
 }
 
-.offers-title{
- @include FlexRowCenter;
- font-size: 2.5rem;
+.offers-title {
+  @include FlexRowCenter;
+  font-size: 2.5rem;
 }
 
-.items-container{
+.items-container {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -395,7 +395,7 @@ a {
   margin: 0 15rem;
 }
 
-.offer-item-1{
+.offer-item-1 {
   background-color: var(--white-color);
   box-shadow: 5px 10px 18px #888888;
   padding: 1rem 3rem;
@@ -404,22 +404,22 @@ a {
   margin-bottom: 3rem;
   transition: transform 500ms ease-in-out 25ms;
 
-  &:hover{
+  &:hover {
     cursor: pointer;
     transform: translateX(30px) translateY(0px);
   }
 
-  h2{
+  h2 {
     font-weight: 600;
     font-size: 1.5rem;
   }
 
-  p{
+  p {
     color: var(--gray-color);
   }
 }
 
-.offer-item-2{
+.offer-item-2 {
   background-color: var(--white-color);
   box-shadow: 5px 10px 18px #888888;
   padding: 1rem 3rem;
@@ -428,23 +428,22 @@ a {
   margin-bottom: 3rem;
   transition: transform 500ms ease-in-out 25ms;
 
-
-  &:hover{
+  &:hover {
     cursor: pointer;
     transform: translateX(30px) translateY(0px);
   }
 
-  h2{
+  h2 {
     font-weight: 600;
     font-size: 1.5rem;
   }
 
-  p{
+  p {
     color: var(--gray-color);
   }
 }
 
-.offer-item-3{
+.offer-item-3 {
   background-color: var(--white-color);
   box-shadow: 5px 10px 18px #888888;
   padding: 1rem 3rem;
@@ -453,18 +452,39 @@ a {
   margin-bottom: 3rem;
   transition: transform 500ms ease-in-out 25ms;
 
-  
-  &:hover{
+  &:hover {
     cursor: pointer;
     transform: translateX(30px) translateY(0px);
   }
 
-  h2{
+  h2 {
     font-weight: 600;
     font-size: 1.5rem;
   }
 
-  p{
+  p {
     color: var(--gray-color);
   }
+}
+
+.web-image img {
+  position: absolute;
+  left: 50px;
+  top: 50px;
+  width: 35%;
+  height: 80%;
+  margin-right: auto;
+}
+
+.web-features-container {
+  background-color: var(--pink-color);
+  position: relative;
+  margin: 20rem 0;
+}
+
+.web-feature-1 i{
+  background-color: var(--blue-color);
+}
+.web-feature-2 i{
+  background-color: var(--red-color);
 }
