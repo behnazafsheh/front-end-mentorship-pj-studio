@@ -605,4 +605,43 @@ a {
 .web-feature-2 i {
   background-color: var(--red-color);
 }
+
+.sign-up-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 75%;
+  background-color: var(--white-color);
+  margin-bottom: 15rem;
+  border-radius: 2rem;
+}
+
+.sign-up-container img {
+  width: 35%;
+  height: 50%;
+}
+
+.sign-up-description {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.sign-up-description h3 {
+  font-size: 3rem;
+}
+
+.sign-up-description p {
+  color: var(--gray-color);
+  margin: 2rem 0;
+}
+
+.sign-up-description button {
+  border: none;
+  padding: 1.5rem 2.5rem;
+  border-radius: 0.5rem;
+}
 /*# sourceMappingURL=main.css.map */
