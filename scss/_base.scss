@@ -6,16 +6,12 @@
   --white-color: rgb(250, 248, 255);
   --orange-color: rgb(250, 196, 141);
   --lightPurple: rgb(231, 229, 253);
-  --cream-color:rgb(254, 250, 241);
-  --blue-color:rgb(83, 78, 220);
-  --red-color:rgb(241, 97, 74);
-  --green-color:rgb(54, 180, 59);
-  --aqua-color:rgb(94, 212, 213);
-  --pink-color:rgb(254, 244, 239);
-
-
-
-
+  --cream-color: rgb(254, 250, 241);
+  --blue-color: rgb(83, 78, 220);
+  --red-color: rgb(241, 97, 74);
+  --green-color: rgb(54, 180, 59);
+  --aqua-color: rgb(94, 212, 213);
+  --pink-color: rgb(254, 244, 239);
 }
 * {
   padding: 0;
@@ -44,25 +40,24 @@ body {
   margin-left: auto;
   padding: 0 1rem;
 }
- @mixin flexSpaceAround() {
-   display: flex;
-   flex-direction: row;
-   justify-content: space-around;
- }
+@mixin flexSpaceAround() {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
 
- @mixin FlexRowCenter {
+@mixin FlexRowCenter {
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: center;
   text-align: center;
- }
+}
 
- @mixin FlexColumnCenter {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
- }
-
+@mixin FlexColumnCenter {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
